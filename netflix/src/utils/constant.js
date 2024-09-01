@@ -1,4 +1,4 @@
-export const API_END_POINT = "http://localhost:5000/api/v1/user";
+export const API_END_POINT = "https://netlfix-clone-07iy.onrender.com/api/v1/user";
 
 export const options = {
     method: 'GET',

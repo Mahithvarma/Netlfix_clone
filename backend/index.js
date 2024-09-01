@@ -19,7 +19,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 app.use(cookieParser());
 const corsOptions = {
-    origin:'http://localhost:3000',
+    origin: ["http://mahith-netlix.netlify.app", "https://mahith-netlix.netlify.app"],
     credentials:true
 }
 app.use(cors(corsOptions));
